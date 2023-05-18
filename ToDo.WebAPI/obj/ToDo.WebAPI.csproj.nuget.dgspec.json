@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Traning\\TodosApp\\ToDo.WebAPI\\ToDo.WebAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj",
+        "projectName": "ToDo.Core",
+        "projectPath": "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Traning\\TodosApp\\ToDo.Infra\\ToDo.Infra.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Traning\\TodosApp\\ToDo.Infra\\ToDo.Infra.csproj",
+        "projectName": "ToDo.Infra",
+        "projectPath": "D:\\Traning\\TodosApp\\ToDo.Infra\\ToDo.Infra.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Traning\\TodosApp\\ToDo.WebAPI\\ToDo.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Traning\\TodosApp\\ToDo.WebAPI\\ToDo.WebAPI.csproj",
+        "projectName": "ToDo.WebAPI",
+        "projectPath": "D:\\Traning\\TodosApp\\ToDo.WebAPI\\ToDo.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Traning\\TodosApp\\ToDo.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "D:\\Traning\\TodosApp\\ToDo.Core\\ToDo.Core.csproj"
+              },
+              "D:\\Traning\\TodosApp\\ToDo.Infra\\ToDo.Infra.csproj": {
+                "projectPath": "D:\\Traning\\TodosApp\\ToDo.Infra\\ToDo.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.31, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
